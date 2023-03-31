@@ -1,12 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
     <div className="landing-page">
       <div className="hero">
-        <h1>Error-404 Web Development Agency LLC</h1>
+        <h1>Welcome to My Website</h1>
         <p>We specialize in creating awesome websites</p>
-        <button>Get Started</button>
+        <div className="video-container">
+            <iframe
+                src="https://www.youtube.com/embed/b8eXfV5BO98"
+                title="My Video"
+                width="800"
+                height="450"
+                frameBorder="0"
+                allowFullScreen
+            ></iframe>
+        </div>
+
+        <Link to="/about" className="about-link">
+          Learn more about us
+        </Link>
       </div>
       <div className="features">
         <div className="feature">
@@ -34,7 +48,7 @@ function Home() {
         </div>
       </div>
       <div className="footer">
-        <p>&copy; built by Dr460n4ir3 LLC 2023. All rights reserved.</p>
+        <p>&copy; Made by Dr460n4ir3 LLC 2023. All rights reserved.</p>
       </div>
     </div>
   );
