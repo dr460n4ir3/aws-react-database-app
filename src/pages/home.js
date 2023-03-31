@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="landing-page">
       <div className="hero">
-        <h1>Welcome to My Website</h1>
+        <h1>Error-404 Web Development Agency LLC</h1>
         <p>We specialize in creating awesome websites</p>
         <button>Get Started</button>
       </div>
@@ -34,7 +34,7 @@ function Home() {
         </div>
       </div>
       <div className="footer">
-        <p>&copy; My Website 2023. All rights reserved.</p>
+        <p>&copy; built by Dr460n4ir3 LLC 2023. All rights reserved.</p>
       </div>
     </div>
   );
